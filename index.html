@@ -846,7 +846,7 @@
     </div>
     
     <div class="floating-badge badge-1">
-      <strong>Django &amp; RestAPI</strong>
+      <strong>Django &amp; FastAPI</strong>
       Python Developer
     </div>
     <div class="floating-badge badge-2">
@@ -872,7 +872,7 @@
       <div class="skill-item reveal reveal-delay-1">
         <div class="skill-icon">&#128295;</div>
         <div class="skill-name">Backend Dev</div>
-        <div class="skill-desc">Django, Python, RestAPI</div>
+        <div class="skill-desc">Django, Python, FastAPI</div>
       </div>
       <div class="skill-item reveal reveal-delay-1">
         <div class="skill-icon"><div class="skill-icon">&#128738;</div></div>
@@ -882,7 +882,13 @@
       <div class="skill-item reveal reveal-delay-2">
         <div class="skill-icon">&#128737;</div>
         <div class="skill-name">Cloud</div>
-        <div class="skill-desc">AWS</div>
+        <div class="skill-desc">AWS, GCP</div>
+      </div>
+    </div>
+    <div class="skill-item reveal reveal-delay-2">
+        <div class="skill-icon">&#128204;</div>
+        <div class="skill-name">Additional Languages</div>
+        <div class="skill-desc">C, C++, Linux</div>
       </div>
     </div>
   </div>
@@ -909,7 +915,7 @@
       <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
     </div>
     <div class="skill-bar-item">
-      <div class="skill-bar-header"><span class="skill-bar-name">AWS</span><span class="skill-bar-pct">65%</span></div>
+      <div class="skill-bar-header"><span class="skill-bar-name">AWS, GCP</span><span class="skill-bar-pct">65%</span></div>
       <div class="skill-bar-track"><div class="skill-bar-fill" data-width="65"></div></div>
     </div>
 
@@ -927,7 +933,7 @@
   </div>
   <div class="projects-grid">
     <div class="project-card reveal">
-      <div class="project-thumb" style="background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);">&#129302;</div>
+      <div class="project-thumb" style="background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);">&#128736;</div>
       <div class="project-body">
         <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">Django</span><span class="project-tag">MySQL</span></div>
         <div class="project-name">Blog Website</div>
@@ -936,21 +942,21 @@
       </div>
     </div>
     <div class="project-card reveal reveal-delay-1">
-      <div class="project-thumb" style="background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);">&#128736;</div>
+      <div class="project-thumb" style="background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);">&#128202;</div>
       <div class="project-body">
-        <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">FastAPI</span><span class="project-tag">In Progress</span></div>
-        <div class="project-name">Coming Soon</div>
-        <p class="project-desc">Currently working on a new project using FastAPI and Python. Will be available on GitHub once complete.</p>
-        <div class="project-links"><a href="https://github.com/Tamilkavibharathi" target="_blank" class="project-link">&#8997; GitHub Profile</a></div>
+        <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">FastAPI</span><span class="project-tag">MySQL</span></div>
+        <div class="project-name">Job Portal Website</div>
+        <p class="project-desc">A Django-based job portal featuring job management, candidate recruitment, and an AI-powered chatbot for enhanced user support.</p>
+        <div class="project-links"><a href="https://tamilkavibharathi.github.io/Job_portal_website/" target="_blank" class="project-link">&#8997; GitHub Profile</a></div>
       </div>
     </div>
     <div class="project-card reveal reveal-delay-2">
-      <div class="project-thumb" style="background:linear-gradient(135deg,#0d0d0d,#1a0a2e,#2d1b69);">&#128202;</div>
+      <div class="project-thumb" style="background:linear-gradient(135deg,#0d0d0d,#1a0a2e,#2d1b69);"> &#129302;</div>
       <div class="project-body">
-        <div class="project-tags"><span class="project-tag">Exploring</span></div>
-        <div class="project-name">More Projects</div>
-        <p class="project-desc">Actively building and learning. Check back soon or visit my GitHub to see what I'm currently working on.</p>
-        <div class="project-links"><a href="https://github.com/Tamilkavibharathi" target="_blank" class="project-link">&#8997; GitHub Profile</a></div>
+        <div class="project-tags"><span class="project-tag">Python, LangChain, OpenAI GPT, FastAPI</span></div>
+        <div class="project-name">AI Agent</div>
+        <p class="project-desc">An intelligent AI agent built for task automation, reasoning, and natural language interaction using modern AI technologies.</p>
+        <div class="project-links"><a href="https://tamilkavibharathi.github.io/Ai-agent/" target="_blank" class="project-link">&#8997; GitHub Profile</a></div>
       </div>
     </div>
   </div>
@@ -983,7 +989,7 @@
       <div class="timeline-col-label reveal">Internship</div>
       <div class="timeline">
         <div class="timeline-item reveal">
-          <div class="timeline-date">Jan 2026 - Feb 2026</div>
+          <div class="timeline-date">Jan 2026 - Mar 2026</div>
           <div class="timeline-title">ARCZON TECH</div>
           <div class="timeline-org">Industry &mdash; Tiruchirappalli</div>
           <div class="timeline-desc"> Worked as a Python Developer at Arczon, building a blog website with backend functionality including user authentication, database management, and content handling.
@@ -1160,7 +1166,7 @@
   const statsObs = new IntersectionObserver(entries => {
     entries.forEach(e => {
       if (e.isIntersecting) {
-        animCounter(document.getElementById('stat1'), 2, false, 1000);
+        animCounter(document.getElementById('stat1'), 3, false, 1000);
         animCounter(document.getElementById('stat2'), 8.2, true, 1500);
         animCounter(document.getElementById('stat3'), 2, false, 1000);
         statsObs.disconnect();
